@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="339px" height="70px" viewBox="0 0 339 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>画板</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFE55D" offset="0%"></stop>
+            <stop stop-color="#FFBB39" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#CD0095" offset="0%"></stop>
+            <stop stop-color="#570049" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="STHeitiJ-Medium, STHeiti J" font-size="72" font-weight="400" letter-spacing="-5">
+        <text id="奇妙水果机" stroke="url(#linearGradient-1)" stroke-width="10" fill-rule="nonzero" fill="#000000">
+            <tspan x="-7" y="57">奇妙水果机</tspan>
+        </text>
+        <text id="奇妙水果机" fill="url(#linearGradient-2)" fill-rule="nonzero">
+            <tspan x="-7" y="57">奇妙水果机</tspan>
+        </text>
+    </g>
+</svg>

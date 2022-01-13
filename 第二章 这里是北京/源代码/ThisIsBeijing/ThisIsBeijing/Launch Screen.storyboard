@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="h3N-xj-mVI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beijing-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="SMX-gg-1ZT">
+                                <rect key="frame" x="87" y="178" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="EpH-zP-vOy"/>
+                                    <constraint firstAttribute="width" constant="240" id="jb1-c9-FQc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这里是北京" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuS-Nv-vgI">
+                                <rect key="frame" x="116" y="443" width="182" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" name="LaunchScreen-Color"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h3N-xj-mVI" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="G9L-xT-xBi"/>
+                            <constraint firstItem="HuS-Nv-vgI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LM0-Z5-8iG"/>
+                            <constraint firstAttribute="bottom" secondItem="h3N-xj-mVI" secondAttribute="bottom" id="XX8-Jd-tYM"/>
+                            <constraint firstItem="h3N-xj-mVI" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Y2m-0S-z1v"/>
+                            <constraint firstItem="HuS-Nv-vgI" firstAttribute="top" secondItem="SMX-gg-1ZT" secondAttribute="bottom" constant="25" id="c4R-q9-d55"/>
+                            <constraint firstItem="SMX-gg-1ZT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-150" id="eiB-Kc-5un"/>
+                            <constraint firstAttribute="trailing" secondItem="h3N-xj-mVI" secondAttribute="trailing" id="p38-wB-Nrh"/>
+                            <constraint firstItem="SMX-gg-1ZT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tDD-tQ-f41"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="1100" height="765"/>
+        <image name="Beijing-Logo" width="900" height="895"/>
+        <namedColor name="LaunchScreen-Color">
+            <color red="0.49803921568627452" green="0.26666666666666666" blue="0.011764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

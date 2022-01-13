@@ -1,0 +1,41 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "grid-size" : "small"
+  },
+  "stickers" : [
+    {
+      "filename" : "sticker-万里长城.sticker"
+    },
+    {
+      "filename" : "sticker-桂林山水.sticker"
+    },
+    {
+      "filename" : "sticker-北京故宫.sticker"
+    },
+    {
+      "filename" : "sticker-杭州西湖.sticker"
+    },
+    {
+      "filename" : "sticker-苏州园林.sticker"
+    },
+    {
+      "filename" : "sticker-安徽黄山.sticker"
+    },
+    {
+      "filename" : "sticker-长江三峡.sticker"
+    },
+    {
+      "filename" : "sticker-日月潭.sticker"
+    },
+    {
+      "filename" : "sticker-承德避暑山庄.sticker"
+    },
+    {
+      "filename" : "sticker-兵马俑.sticker"
+    }
+  ]
+}

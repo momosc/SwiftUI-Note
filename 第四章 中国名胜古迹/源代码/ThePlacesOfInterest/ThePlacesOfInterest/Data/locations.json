@@ -1,0 +1,72 @@
+[
+  {
+    "id" : "changcheng",
+    "name" : "万里长城",
+    "image" : "map-万里长城",
+    "latitude" : 40.432062843453906,
+    "longitude" : 116.57035344107736,
+  },
+  {
+    "id" : "guilin",
+    "name" : "桂林山水",
+    "image" : "map-桂林山水",
+    "latitude" : 25.253445680917235,
+    "longitude" : 110.17856180366576
+  },
+  {
+    "id" : "gugong",
+    "name" : "北京故宫",
+    "image" : "map-北京故宫",
+    "latitude" : 39.91746499954415,
+    "longitude" : 116.39086171479886
+  },
+  {
+    "id" : "xihu",
+    "name" : "杭州西湖",
+    "image" : "map-杭州西湖",
+    "latitude" : 30.24424831626813,
+    "longitude" : 120.15016768411958
+  },
+  {
+    "id" : "suzhouyuanlin",
+    "name" : "苏州园林",
+    "image" : "map-苏州园林",
+    "latitude" : 31.32466840069139,
+    "longitude" : 120.63003801793343
+  },
+  {
+    "id" : "huangshan",
+    "name" : "安徽黄山",
+    "image" : "map-安徽黄山",
+    "latitude" : 29.71420569102186,
+    "longitude" : 118.33430210612008
+  },
+  {
+    "id" : "sanxia",
+    "name" : "长江三峡",
+    "image" : "map-长江三峡",
+    "latitude" : 30.77394291169929,
+    "longitude" : 111.28975962612199
+  },
+  {
+    "id" : "riyuetan",
+    "name" : "日月潭",
+    "image" : "map-日月潭",
+    "latitude" : 23.85844915540286,
+    "longitude" : 120.91590240014511
+  },
+  {
+    "id" : "bishushanzhuang",
+    "name" : "承德避暑山庄",
+    "image" : "map-承德避暑山庄",
+    "latitude" : 40.98920962129403,
+    "longitude" : 117.94412449778079
+  },
+  {
+    "id" : "bingmayong",
+    "name" : "兵马俑",
+    "image" : "map-兵马俑",
+    "latitude" : 34.38439861393912,
+    "longitude" : 109.27852398515611
+  }
+]
